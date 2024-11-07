@@ -8,7 +8,7 @@ app.get("/sabtenam", (req, res) => {
 });
 
 app.get("/test", (req, res) => {
-  res.send("in yek test ast");
+  res.send("in yek test ast ");
 });
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
